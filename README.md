@@ -10,7 +10,7 @@
 
 ## Usage
 
-It can be used to create some basic AWS services that are responsible to host a scalable basic HTML web application.
+It can be used to create some basic AWS services that are responsible to host a scalable basic web application.
 
 | This includes: |
 |------|
@@ -35,7 +35,7 @@ module "basic-app" {
   source = "git::https://github.com/rohit04apr/terraform-app-deploy"
 
   aws = {
-	    access_key = ""
+	access_key = ""
     	secret_key = ""
     	region = ""     
   }
