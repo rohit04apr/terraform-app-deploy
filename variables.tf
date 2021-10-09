@@ -45,7 +45,7 @@ variable "custom_tags" {
 
 variable "key_path" {
   type        = string
-  description = "public key path"
+  description = "(Required) Public key path"
   // Provide the path of your .pub file
   default = "/Users/rohit_tiwari 1/.ssh/id_rsa.pub"
 }
